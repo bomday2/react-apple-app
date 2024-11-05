@@ -1,0 +1,31 @@
+.detail_img {
+  width: 100%;
+  height: auto;
+}
+.section__content {
+  padding: 40px
+}
+
+.section__title {
+  padding: 0px;
+  font-size: 40px;
+  max-width: 16px 0;
+}
+
+.section__details {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.section__overview {
+  font-size: 20px;
+  line-height: 1.5;
+}
+@media screen and (max-width: 768px){
+  .section__overview{
+      font-size: 16px;;
+  }
+  .section__details{
+      font-size: 16px;
+  }
+}
